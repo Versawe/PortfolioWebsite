@@ -1,0 +1,142 @@
+html {
+    text-size-adjust: 75%;
+    -webkit-text-size-adjust: 75%;
+    -moz-text-size-adjust: 75%;
+    -o-text-size-adjust: 75%;
+    image-resolution: from-image;
+    background-color: black;
+    width: 80%;
+    height: 100%;
+    margin-left: 10%;
+}
+
+div{
+    background-color: #f7ebdb;
+}
+
+
+img.large{
+    display: inline;
+    width: 100%;
+    position: relative;
+    top: -1em;
+}
+
+p.title{
+    font-size: 2em;
+    font-family: "Tourney-Reg";
+    color: #8B4513;
+    margin-top: 5%;
+}
+
+.bodyContent{
+    font-size: 1em;
+    font-family: "Tourney-Reg";
+    color: #8B4513;
+    margin-left: 1%;
+    margin-right: 1%;
+    background-color: #f7ebdb;
+    line-height: 200%;
+}
+span.bodyContent{
+    font-size: 1em;
+    font-family: "Yahei";
+    color: #8B4513;
+    margin-left: 1%;
+    background-color: #f7ebdb;
+    position: relative;
+    line-height: 200%;
+    top: -0.8em;
+}
+
+.clickHere{
+    text-decoration: none;
+    font-size: 1em;
+    font-family: "Yahei";
+    color: #8B4513;
+    background-color: #f7ebdb; 
+}
+.clickHere:hover{
+    text-decoration: underline;
+    font-size: 1em;
+    font-family: "Tourney-Reg";
+    color: purple;
+    background-color: #f7ebdb; 
+}
+
+.float{
+    float:left;
+    margin-left: 8%;
+}
+.floatR{
+    float:right;
+    margin-right: 8%;
+}
+.paragraphLeft{
+    display: inline-block;
+    width: 60%;
+}
+.floatRightImg{
+    float: right;
+    margin-right: 1.5%;
+    margin-top: 1%;
+    margin-bottom: 1%;
+}
+.floatLeftImg{
+    float: left;
+    margin-left: 1.5%;
+    margin-top: 1%;
+    margin-bottom: 1%;
+}
+
+.bodyImg{
+    max-width: 100%;
+    display: inline-block;
+}
+
+/*Form CSS Below*/
+
+button.submit{
+    font-size: 1em;
+    font-family: "Tourney-Reg";
+    color: #cdc0a2;
+    background-color: #8B4513;
+    width: 6em;
+    height: 3em;
+    display: block;
+    margin-bottom: 15%;
+}
+button.submit:hover{
+    font-size: 1em;
+    font-family: "Tourney-Reg";
+    color: #cdc0a2;
+    background-color: #8B4513;
+    width: 6em;
+    height: 3em;
+    display: block;
+    margin-bottom: 15%;
+    text-shadow: .1em .1em #ffffff;
+}
+
+/*Vidoe css*/
+.iframe-container {
+    overflow: hidden;
+    padding-top: 56.25%;
+    position: relative;
+    background-color: #ececec;
+
+}
+ 
+.iframe-container iframe {
+    border: 0;
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
+ 
+
+.iframe-container-4x3 {
+    padding-top: 75%;
+}
