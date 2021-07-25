@@ -4,16 +4,23 @@ html {
     -moz-text-size-adjust: 75%;
     -o-text-size-adjust: 75%;
     image-resolution: from-image;
-    background-color: black;
+    background-color: #39ff14;
     width: 80%;
     height: 100%;
     margin-left: 10%;
 }
 
 div{
-    background-color: #f7ebdb;
+    background-color: #39ff14;
 }
-
+main
+{
+    background-color: black;
+}
+center
+{
+    left: 5%;
+}
 
 img.large{
     display: inline;
@@ -22,25 +29,33 @@ img.large{
     top: -1em;
 }
 
+img.small{
+    display: inline;
+    width: 45%;
+    position: relative;
+    top: -1em;
+}
+
 p.title{
     font-size: 2em;
-    font-family: "Tourney-Reg";
-    color: #8B4513;
+    font-family: "MavenPro-Reg";
+    color: #39ff14;
     margin-top: 5%;
 }
 
 .bodyContent{
     font-size: 1em;
-    font-family: "Tourney-Reg";
-    color: #8B4513;
-    margin-left: 1%;
+    font-family: "MavenPro-Bold";
+    color: black;
+    color: #39ff14;
     margin-right: 1%;
-    background-color: #f7ebdb;
+    background-color: black;
     line-height: 200%;
 }
+
 span.bodyContent{
     font-size: 1em;
-    font-family: "Yahei";
+    font-family: "MavenPro-Reg";
     color: #8B4513;
     margin-left: 1%;
     background-color: #f7ebdb;
@@ -52,7 +67,7 @@ span.bodyContent{
 .clickHere{
     text-decoration: none;
     font-size: 1em;
-    font-family: "Yahei";
+    font-family: "MavenPro-Reg";
     color: #8B4513;
     background-color: #f7ebdb; 
 }
@@ -71,6 +86,14 @@ span.bodyContent{
 .floatR{
     float:right;
     margin-right: 8%;
+}
+img.smallFloatRight{
+    display: inline;
+    width: 30%;
+    float: right;
+    margin-right: 1.5%;
+    margin-top: 1%;
+    margin-bottom: 1%;
 }
 .paragraphLeft{
     display: inline-block;

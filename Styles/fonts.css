@@ -20,9 +20,9 @@
 /*MavenPro Font*/
 @font-face{
     src: url(Fonts/MavenPro-Regular.ttf);
-    font-family: Tourney-Reg;
+    font-family: MavenPro-Reg;
 }
 @font-face{
     src: url(Fonts/MavenPro-Bold.ttf);
-    font-family: Tourney-Bold;
+    font-family: MavenPro-Bold;
 }
