@@ -1,28 +1,28 @@
 /*Css for Fonts*/
 /*Tourney Font*/
 @font-face{
-    src: url(Fonts/Tourney-Regular.ttf);
+    src: url(../Fonts/Tourney-Regular.ttf);
     font-family: Tourney-Reg;
 }
 @font-face{
-    src: url(Fonts/Tourney-Bold.ttf);
+    src: url(../Fonts/Tourney-Bold.ttf);
     font-family: Tourney-Bold;
 }
 @font-face{
-    src: url(Fonts/Tourney-Thin.ttf);
+    src: url(../Fonts/Tourney-Thin.ttf);
     font-family: Tourney-Thin;
 }
 @font-face{
-    src: url(Fonts/Tourney-Bold.ttf);
+    src: url(../Fonts/Tourney-Bold.ttf);
     font-family: Tourney-Bold;
 }
 
 /*MavenPro Font*/
 @font-face{
-    src: url(Fonts/MavenPro-Regular.ttf);
+    src: url(../Fonts/MavenPro-Regular.ttf);
     font-family: MavenPro-Reg;
 }
 @font-face{
-    src: url(Fonts/MavenPro-Bold.ttf);
+    src: url(../Fonts/MavenPro-Bold.ttf);
     font-family: MavenPro-Bold;
 }
