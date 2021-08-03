@@ -170,6 +170,7 @@ img.smallFloatLeft{
     background-color: black;
     margin-right: 10%;
     margin-left: 5%;
+    margin-bottom: 5%;
 }
 
 /* Clear floats after image containers */
