@@ -30,7 +30,7 @@ img.large{
 }
 
 img.small{
-    display: inline;
+    display: block;
     width: 10%;
     top: -1em;
 }
@@ -60,36 +60,34 @@ p.titleCode{
     font-family: "Tourney-Bold";
     color: #39ff14;
     position:relative;
-    bottom: .5em;
+    bottom: .75em;
     background-color: black; 
     width: 50%;
     display: inline;
-    margin-left: 5%;
+    margin-left: 10%;
     cursor: pointer;
     margin-bottom: 10%;
     text-decoration: none;
     border-color: #39ff14;
     border: solid;
-    border-width: .15em;
-    
+    border-width: .15em;  
 }
 
 .titleLinks:hover{
-    color: purple;
     font-size: 3em;
     font-family: "Tourney-Bold";
     position:relative;
-    bottom: .5em;
-    background-color: black; 
+    bottom: .75em;
     width: 50%;
     display: inline;
-    margin-left: 5%;
+    margin-left: 10%;
     cursor: pointer;
     margin-bottom: 10%;
     text-decoration: none;
-    border-color: #39ff14;
+    border-color: black;
     border: solid;
     border-width: .15em;
+    color: black;
 }
 
 .bodyContent{
@@ -162,6 +160,23 @@ img.smallFloatLeft{
     display: inline-block;
 }
 
+.clickHere{
+    color: #39ff14;
+}
+.clickHere:hover {
+    color: #39ff14;
+}
+.clickHere:visited {
+    text-decoration: none; 
+}
+
+a{
+    color: #39ff14;
+}
+a:hover{
+    color: red;
+}
+
 /* Three image containers (use 25% for four, and 50% for two, etc) */
 .column {
     float: left;
@@ -182,27 +197,43 @@ img.smallFloatLeft{
 }
 
 /*Form CSS Below*/
-
-button.submit{
-    font-size: 1em;
-    font-family: "Tourney-Reg";
-    color: #cdc0a2;
-    background-color: #8B4513;
-    width: 6em;
-    height: 3em;
-    display: block;
-    margin-bottom: 15%;
+form{
+    margin-left: 1%;
+    background-color: black;
+    line-height: 3em;
 }
-button.submit:hover{
+
+label{
+    color: #39ff14;
+    background-color: black;
     font-size: 1em;
-    font-family: "Tourney-Reg";
-    color: #cdc0a2;
-    background-color: #8B4513;
-    width: 6em;
-    height: 3em;
-    display: block;
-    margin-bottom: 15%;
-    text-shadow: .1em .1em #ffffff;
+    font-family: "MavenPro-Reg";
+}
+
+input{
+    background-color: #39ff14;
+    font-size: 1em;
+    font-family: "MavenPro-Reg";
+    width: 20em;
+    margin-left: 5%;
+}
+textarea{
+    background-color: #39ff14;
+    font-size: 1em;
+    font-family: "MavenPro-Reg";
+    width: 20em;
+    margin-left: 5%;
+    width: 50em;
+    height: 10em;
+}
+
+button{
+    width: 10em;
+    height: 5em;
+    font-family: "Tourney-Bold";
+    font-size: 1.5em;
+    background-color: #39ff14;
+    color: black;
 }
 
 /*Vidoe css*/
@@ -213,17 +244,3 @@ button.submit:hover{
     background-color: black;
 
 }
- 
-/*.iframe-container iframe {
-    border: 0;
-    height: 100%;
-    left: 0;
-    position: absolute;
-    top: 0;
-    width: 100%;
-}
- 
-
-.iframe-container-4x3 {
-    padding-top: 75%;
-}*/
