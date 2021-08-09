@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="Styles/fonts.css">
 	<link rel="stylesheet" href="Styles/main.css">
 	<link rel="icon" type="image/x-icon" href="Images/logo.png"/>
+    <script src="https://www.google.com/recaptcha/api.js"></script>
 </head>
 
 <body>
@@ -28,20 +29,21 @@
             Feel free to enter your contact information below and I will be in touch. Thank you!
         </div>
         <br>
-        <form method="post" name="Contact" data-netlify="true">
+        <form method="post" name="Contact" data-netlify-recaptcha="true" data-netlify="true">
             <p>
-                <label>Your Name: <input type="text" name="name" maxlength="50" /></label>
+                <label>Name: <input type="text" name="name" maxlength="50" /></label>
             </p>
             <p>
-                <label>Your Email: <input type="email" name="email" maxlength="50"/></label>
+                <label>Email: <input type="email" name="email" maxlength="50"/></label>
             </p>
             <p>
-                <label>Your Phone # (optional): <input type="text" name="phone" maxlength="50"/></label>
+                <label>Phone # (optional): <input type="text" name="phone" maxlength="50"/></label>
             </p>
             <p>
                 <label>Message:</label><br><textarea type="text" name="message" maxlength="
                     500"></textarea>
             </p>
+            <br><div data-netlify-recaptcha="true"></div><br>
             <p>
                 <button type="submit">Send</button>
             </p>
