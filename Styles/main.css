@@ -255,3 +255,8 @@ button{
   width: 75%;
   height: 75%;
 }
+
+.g-recaptcha
+{
+    background-color: black;
+}
